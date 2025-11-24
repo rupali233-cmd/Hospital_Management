@@ -4,8 +4,8 @@ export const sendAppointmentEmail = async (appointment, pdfFilePath) => {
     const transporter = nodemailer.createTransport({
         service: "gmail",
         auth: {
-            user:"ravikumarstm333@gmail.com", // तुम्हारा Gmail
-            pass: "yvayfrajcsfrbzav", // तुम्हारा App Password
+            user:"", // तुम्हारा Gmail
+            pass: "", // तुम्हारा App Password
         },
     });
 
