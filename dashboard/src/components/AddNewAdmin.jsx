@@ -50,6 +50,7 @@ const AddNewAdmin = () => {
           dob,
           gender,
           password,
+          isDefault: true, // Set as default if first admin
         },
         {
           withCredentials: true,
