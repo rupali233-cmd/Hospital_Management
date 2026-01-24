@@ -1,0 +1,46 @@
+# ================================
+# PROJECT SETUP COMMANDS (REFERENCE)
+# ================================
+# replace all env files value
+# make sure private
+
+# -------- BACKEND (Node + Express) --------
+# Go to backend folder
+# cd backend
+
+# Install all backend dependencies
+# npm install
+
+# If nodemon not installed
+# npm install --save-dev nodemon
+
+# Run backend (development)
+# npm run dev
+
+# OR run backend (production)
+# npm start
+
+
+# -------- DASHBOARD / FRONTEND (Vite + React) --------
+# Go to dashboard folder
+# cd dashboard
+
+# Install frontend dependencies
+# npm install
+
+# Run frontend (development)
+# npm run dev
+# Open: http://localhost:5173
+
+# Build frontend for production
+# npm run build
+
+
+# -------- COMMON USED FRONTEND PACKAGES --------
+# npm install axios react-router-dom
+# npm install bootstrap
+# npm install @mui/material @emotion/react @emotion/styled
+
+
+# -------- COMMON USED BACKEND PACKAGES --------
+# npm install express mongoose dotenv cors jsonwebtoken bcryptjs multer
