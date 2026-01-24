@@ -4,13 +4,13 @@ export const sendAppointmentEmail = async (appointment, pdfFilePath) => {
     const transporter = nodemailer.createTransport({
         service: "gmail",
         auth: {
-            user:"", // तुम्हारा Gmail
-            pass: "", // तुम्हारा App Password
+            user:process.env.EMAIL_USER,
+            pass:process.env.EMAIL_PASS,
         },
     });
 
     const mailOptions = {
-        from: "ravikumarstm333@gmail.com", // तुम्हारा Gmail
+        from: process.env.EMAIL_USER,
         to: appointment.email,
         subject: "Your Appointment is Confirmed!",
         text: `
